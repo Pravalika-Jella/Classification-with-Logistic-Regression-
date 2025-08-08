@@ -1,11 +1,10 @@
-Objective
+## Objective
 
 The objective of this task is to implement a Logistic Regression model for binary classification using the Breast Cancer Wisconsin dataset from scikit-learn. The model predicts whether a tumor is malignant or benign based on diagnostic features.
 
-
 ---
 
-Dataset
+## Dataset
 
 Source: load_breast_cancer() from scikit-learn
 
@@ -13,18 +12,15 @@ Samples: 569
 
 Features: 30 numeric features (e.g., mean radius, mean texture, mean smoothness, etc.)
 
-Target Classes:
+## Target Classes:
 
 0 → Malignant
 
 1 → Benign
 
-
-
-
 ---
 
-Steps Performed
+## Steps Performed
 
 1. Data Loading
 
@@ -73,10 +69,6 @@ Plotted ROC Curve to visualize classification performance.
 
 Plotted Sigmoid Function to show probability mapping.
 
-
-
-
-
 ---
 
 Model Evaluation Metrics
@@ -92,7 +84,7 @@ Confusion Matrix:
 
 ---
 
-Visualizations
+## Visualizations
 
 ROC Curve
 
@@ -101,25 +93,22 @@ Shows the trade-off between True Positive Rate and False Positive Rate.
 AUC = 0.99, indicating excellent classification performance.
 
 
-Sigmoid Function
+## Sigmoid Function
 
 Demonstrates how logistic regression maps linear outputs to probabilities between 0 and 1.
 
 
-
-
 ---
 
-Dependencies
+## Dependencies
 
 Install the required Python libraries before running the script:
 
 pip install numpy pandas scikit-learn matplotlib
 
-
 ---
 
-How to Run
+## How to Run
 
 python task4_logistic_regression.py
 
